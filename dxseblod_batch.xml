@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id$ -->
+<extension type="plugin" group="system" version="3.0" method="upgrade">
+	<name>DX Seblod Batch 3</name>
+	<version>1.0</version>
+	<creationDate>12 Desember 2013</creationDate>
+	<author>Viktor Iwan and Team</author>
+	<copyright>Copyright . All rights reserved.	</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<authorEmail>support@doxadigital.com</authorEmail>
+	<authorUrl>www.doxadigital.com</authorUrl>
+	<description>Plugin to add batch processing for seblod. Based on Joomla 3 and Seblod 3. 
+	This is not a core hack but using override concept on batchcopy() method.</description>
+	<files>
+		<filename>index.html</filename>
+		<filename>batchseblod.php</filename>
+		<filename>override.php</filename>
+		<filename plugin="dxseblod_batch">dxseblod_batch.php</filename>
+	</files>
+</extension>
